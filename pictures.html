@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="main.css">
         <link rel="stylesheet" href="pictures.css">
         <link href='https://fonts.googleapis.com/css?family=Graduate' rel='stylesheet' type='text/css'>
+        <script src ="pictures.js"></script>
     </head>
     <body>
     	<div class="col-2">
@@ -23,16 +24,35 @@
 		<section>
 			<div class="col-6">
     			<header>Pictures</header>
-    				<div class="gallery">
-						<br /><div class="thumbnails">
-							<img onMouseover="preview.src=small-redstepper.src" id="small-redstepper" src="small-redstepper.jpg" alt=""/>
-							<img onMouseover="preview.src=william-tell.src" id="william-tell" src="william-tell.jpg" alt=""/>
-							<img onMouseover="preview.src=band-day.src" id="band-day" src="band-day.jpg" alt=""/>
-							<img onMouseover="preview.src=marching.src" id="marching" src="marching.jpg" alt=""/>
-							<img onMouseover="preview.src=rutgers-standtune.src" id="rutgers-standtune" src="rutgers-standtune.jpg" alt=""/>
-						</div><br/>
-						<div class="preview" >
-							<img id="preview" src="small-redstepper.jpg" alt=""/>
+					<div id="gallery">
+						<div id="thumbs">
+							<a href="javascript: changeImage(1);"><img src="fanfare.jpg" alt="" /></a>
+							<a href="javascript: changeImage(2);"><img src="william-tell.jpg" alt="" /></a>
+							<a href="javascript: changeImage(3);"><img src="small-redstepper.jpg" alt="" /></a>
+							<a href="javascript: changeImage(4);"><img src="band-day.jpg" alt="" /></a>
+							<a href="javascript: changeImage(5);"><img src="rutgers-standtune.jpg" alt="" /></a>
+						</div>
+	
+						<div id="bigimages">
+							<div id="normal1">
+								<img src="fanfare.jpg" alt=""/>
+							</div>	
+		
+							<div id="normal2">
+								<img src="william-tell.jpg" alt=""/>
+							</div>	
+		
+							<div id="normal3">
+								<img src="small-redstepper.jpg" alt=""/>
+							</div>	
+		
+							<div id="normal4">
+								<img src="band-day.jpg" alt=""/>
+							</div>	
+		
+							<div id="normal5">
+								<img src="rutgers-standtune.jpg" alt=""/>
+							</div>
 						</div>
 					</div>
 			</div>
