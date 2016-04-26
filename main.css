@@ -1,3 +1,9 @@
+.Redsteppers {
+	font-style: bold;
+	font-size: 150%
+	text-align: center;
+	text-shadow: 5px 5px #990000;
+}
 
 .col {
     float: left;
@@ -133,19 +139,19 @@ ul {
 
 li a {
     display: block;
-    color: rgb(255, 240, 179);
+    color: #990000;
     padding: 8px 0 8px 16px;
     text-decoration: none;
     font-family: 'Graduate', cursive;
     
 }
 li a:hover {
-    background-color: rgb(255, 240, 179);
-    color: #cc0000;
+    background-color: #990000;
+    color: #f5f5f0;
 }
 .active {
-     background-color: rgb(255, 240, 179);
-    color: #cc0000;
+     background-color: #990000;
+    color: #f5f5f0;
 }
   header {
   		font-size: 400%; 
